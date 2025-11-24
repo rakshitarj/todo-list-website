@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    margin-bottom: 20px;
+}
+
+#taskInput {
+    padding: 8px;
+    width: 200px;
+}
+
+#addBtn {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+#taskList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#taskList li {
+    margin: 5px 0;
+    padding: 6px;
+    border: 1px solid #ddd;
+    display: inline-block;
+    min-width: 250px;
+}
+
+.delete-btn {
+    margin-left: 10px;
+    cursor: pointer;
+}
